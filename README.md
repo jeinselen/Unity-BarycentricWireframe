@@ -1,4 +1,6 @@
 # Unity Barycentric Wireframe Shader Graph
+![Render from a Unity project using this setup, with a fair bit of customisation to how the lines are rendered, giving a broken and fragmented effect over the pseudo-volumetric cloud effects](Images/Clouds.jpg)
+
 Like many other wireframe rendering solutions in Unity, the script side of this toolset stores barycentric coordinates as tangent vectors in a modified mesh asset.
 
 Unlike others, the shader implementation is built entirely in the Shader Graph, making customisation significantly easier without having to jump into code.
